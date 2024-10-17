@@ -6,7 +6,7 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, cur
 
 app = Flask(__name__)
 app.secret_key = "clave_secreta"
-6
+
 # Configuración de SQLAlchemy
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
